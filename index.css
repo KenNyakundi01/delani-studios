@@ -32,6 +32,7 @@ body{
   nav>ul>li>a:hover {
  color:red;
   background:gold;
+  
   }
   h1{
     color: white;
