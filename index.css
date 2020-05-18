@@ -32,12 +32,13 @@ body{
   nav>ul>li>a:hover {
  color:red;
   background:gold;
-  
+
   }
   h1{
     color: white;
     text-align: center;
     font-size: 70px;
+    
   }
   P{
       color: white;
