@@ -16,13 +16,21 @@
            based on your requirements, we can provide a complete offering or just the piece you need.</p>
       
    </div>
+
       <h2 style="
         text-align: center;
         font-size: 30px;
         font-weight: 300;">What we do</h2>
-   <script>
+
+   <div id="all" style="position: relative;  ">
+     
+                
+   <div class="des" style="position: fixed;
+   left: 8px;
+   text-align: center;">
+<script>
 $(document).ready(function(){
-  $("button").click(function(){
+  $(".design").click(function(){
     $(".toggle").toggle();
   });
 });
@@ -33,15 +41,17 @@ $(document).ready(function(){
 and user experience testing.<br><br>
 Throughout your project, our designers create and<br> implement visual design and workflows,solicit user <br> feedback and work with
 to make sure what gets built<br> is what is needed.</p>
-<button><img src="assets/services/design.png" style="position: inherit;
+<button class="design"><img src="assets/services/design.png" style="position: inherit;
     left: 100px;"></button>
+    </div>
 <div class="stu" style="text-align: center;
 position: relative;
-top: -280px;">
+top: 48px;
+text-align: center; ">
 <script>
 
     $(document).ready(function(){
-      $("butto").click(function(){
+      $(".dev").click(function(){
         $(".togle").toggle();
       });
     });
@@ -51,15 +61,17 @@ top: -280px;">
     <p class="togle" >
 All engineers are fluent in the latest enterprise,<br>  mobile and web development technologies.<br><br>They collaborate with your 
 team to write and improve<br> code on a daily basis, using proven practices such as <br> test-driven development and pair programming.</p>
-    <butto><img src="assets/services/dev.png" style="position: relative;""></butto>
+    <button class="dev"><img src="assets/services/dev.png" style="position: relative;"></button>
         </div>
            
      <div class="last" style="text-align: right;
-     position: relative;
-    bottom: 530px;">
+     position: fixed;
+     top: 405px;
+     right: 0px;
+     text-align: center;">
         <script>
             $(document).ready(function(){
-              $("buton").click(function(){
+              $(".pro").click(function(){
                 $(".product").toggle();
               });
             });
@@ -70,13 +82,15 @@ team to write and improve<br> code on a daily basis, using proven practices such
             and user experience testing.<br><br>
             Throughout your project, our designers create and<br> implement visual design and workflows,solicit user <br> feedback and work with
             to make sure what gets built<br> is what is needed.</p>
-            <buton><img src="assets/services/product.png" style="position: inherit;
-                left: 100px;"></buton>
+            <button class="pro"><img src="assets/services/product.png" style="position: inherit;
+                left: 100px;"></button>
            
       </div>
+    </div>
+
+
+    
 </body>
 </html> 
-   
-
   
       
